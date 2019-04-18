@@ -9,7 +9,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -27,9 +29,7 @@
             <li>
                 <a href="#about">About</a>
             </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
+
             <li>
                 <a href="#education">Education</a>
             </li>
@@ -40,7 +40,7 @@
                 <a href="#skills">Skills</a>
             </li>
             <li>
-                <a href="#contact">Achievements</a>
+                <a href="#achievements">Achievements</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -76,11 +76,10 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        I'm a hobbyist coder aspiring to make a career in Machine learning. I'm currently studying
+                        I'm a hobbyist coder aspiring to make a career in machine learning. I'm currently studying
                         B.E(2nd year) at Dayananda Sagar College of Engineering, Bangalore.
-                        Apart from Machine learning and Data Science I'm also interested in Mobile app development,
-                        particularly native Android but I also have some experience in cross-platform apps using React
-                        Native.
+                        Apart from Machine learning and Data Science I'm also interested in mobile app development,
+                        particularly native Android apps. I also have some experience in web development.
                     </p>
                 </div>
             </div>
@@ -88,7 +87,7 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <!-- <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="September 2015 – September 2016">
@@ -122,7 +121,7 @@
             </div>
         </div>
     </div>
-    <!-- End #experience -->
+    End #experience -->
 
     <div id="education">
         <h2 class="heading">Education</h2>
@@ -144,31 +143,18 @@
     </div>
     <!-- End #education -->
 
+    
+
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Spectrum Photo Editor</h3>
-                        <p>
-                            A photo-editor that can convert regular photos into artistic ones using Fast Style
-                            Transfer. It provides many other image editing features like ambience, contrast, lens blur
-                            etc.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
+
                 <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/sigverify.png" width="300" height="300" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -177,7 +163,7 @@
                             Writer independent off-line Signature verification using Siamese Convolutional networks.
                             The model was trained on the benchmark CEDAR1 dataset and achieved a AUC of 75.34%.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://www.github.com/Aftaab99/OfflineSignatureVerification">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -185,48 +171,161 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/cdd1.jpg" width="300" height="300"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Cancer detection and Diagnosis - Mylan Hackathon 2018</h3>
+                        <h3>Cancer detection and Diagnosis - Mylan hackathon '18</h3>
                         <p>
-                            A flask website for showcasing some of the machine learning models we built for early
-                            detection of cancer through lifestyle habits and non-invasive tests. Also we used
+                            Made for Mylan Hackathon 2018 organised by Mylan Pharmeceuticals.
+                            The project is a flask website for showcasing some of the machine learning models we built
+                            for early
+                            detection of cancer through lifestyle habits and non-invasive tests. We used
                             Convolutional Neural networks for diagnosing cancer through patient's tissue samples.
                             We also built a model for binary and multiclass classification of chemotheraphy
                             drugs(protein kinases) using their drug fingerprints.
+                        </p>
+                        <a href="https://github.com/Aftaab99/Cancer-diagnosis-and-early-detection">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/attention.jpg" width=300 height="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Context based Question-Answering system</h3>
+                        <p>
+                            Context based question answering system trained on the Stanford Question-Answering
+                            Dataset(SQUAD2.0). Used a LSTM cell recurrent neural network with an Attention mechanism.
+                            The model was written in Keras, and preprocessing was done using Keras's Tokenizer API.
+                        </p>
+                        <a href="https://www.github.com/Aftaab99/CancerDetectionAndDiagnosis">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/color_quantization.png" width=300 height=300 />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Image color quantization using K-means</h3>
+                        <p>
+                            Implemented the K-Means algorithm in C++ to convert a given RGB image into a K-bit RGB
+                            image, thus quantizing all colours in the image to the K most dominant colours(hence
+                            compressing the image file size in the process). Used OpenCV's <i>Mat</i> class for
+                            representing and processing images.
+                        </p>
+                        <a href="https://github.com/Aftaab99/ImageColorQuantization">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/turn_indication.jpg" width="300" height=300/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Turn Indication in spoken dialogue - Hackwell1.0 2019</h3>
+                        <p>
+                            My team's submission for Hackwell1.0 organised by Honeywell and JSSATE-Bangalore. Our task
+                            was to identify all speaker changes in given audio file and log the timestamp at which the
+                            speaker change occurs. We were provided with a Dataset on <i>wav</i> files and each file had
+                            all timestamps of the speaker changes taking place in it.
+                            We used Librosa for some preprocessing(like converting data samples and sampling rate into
+                            Mel Spectograms) and trained a 2 layer LSTM cell network. We obtained a F1-score of 0.39.
                         </p>
                         <a href="#">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/DAE.jpg" width="300" height="300"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Denoising Autoencoder</h3>
+                        <p>
+                            A denoising autoencoder trained on the RENOIR dataset(Mi3 subset). The model was written
+                            entirely in Tensorflow and was trained on a GPU on Google colab.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
             </div>
         </div>
     </div>
     <!-- End #projects -->
 
+    <div id="achievements">
+            <h2 class="heading">Achievements</h2>
+            <div class="education-block">
+                <h3>Coding contest 2017 - Codechef</h3>
+                <span class="education-date">September 2017</span>
+                <h4>2<sup>nd</sup> place at the inter department coding contest organised by department of Information
+                    Science.</h4>
+            </div>
+    
+            <div class="education-block">
+                <h3>Coding contest 2017 - Hackerrank</h3>
+                <span class="education-date">December 2017</span>
+                <h4>1<sup>st</sup> place at the intra department coding contest organised by department of Information
+                    Science.</h4>
+            </div>
+    
+            <div class="education-block">
+                <h3>NENE Week hackathon 2018</h3>
+                <span class="education-date">March 2018</span>
+                <h4>1<sup>st</sup> place at the NENE week hackathon organised by Ramaiah Institue of Technology.</h4>
+            </div>
+            <!-- End .education-block -->
+    
+            <div class="education-block">
+                <h3>Hackathon 2018 - Dept. of CSE</h3>
+                <span class="education-date">April 2018</span>
+                <h4>2<sup>nd</sup> place at the hackathon organised by department of CSE, DSCE.</h4>
+            </div>
+    
+            <div class="education-block">
+                <h3>Hackwell 1.0</h3>
+                <span class="education-date">April 2019</span>
+                <h4>Won a consolation prize(4th place) at Hackwell 1.0 organised by Honeywell and JSSATE-Bangalore.</h4>
+    
+            </div>
+            <!-- End .education-block -->
+        </div>
+
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
+            <li>Machine learning</li>
+            <li>Data Science</li>
+            <li>Android development</li>
             <li>Python</li>
             <li>Java</li>
             <li>C++</li>
+            <li>JavaScript</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Bootstrap</li>
-            <li>Python</li>
-            <li>Python</li>
-            <li>R</li>
-            <li>React Native</li>
-            <li>Android</li>
             <li>SQL</li>
             <li>Tensorflow</li>
             <li>PyTorch</li>
+            <li>Librosa</li>
             <li>OpenCV</li>
             <li>Flask</li>
+            <li>Numpy</li>
+            <li>Pandas</li>
+            <li>Scikit-learn</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -260,25 +359,25 @@
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
+                        <!-- https://www.hackerearth.com/@aftaabzia9 -->
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
+                            <a href="https://github.com/Aftaab99" target="_blank"><i class="fab fa-github"
                                     aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.hackerrank.com/aftaabzia9" target="_blank"><i
+                                    class="fab fa-hackerrank"></i></a>
+                        </li>
+
+                        <li>
+                            <a href="https://stackoverflow.com/users/8944317/aftaab" target="_blank"><i
+                                    class="fab fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/aftaab-zia-45bb47150/" target="_blank"><i
+                                    class="fab fa-linkedin" aria-hidden="true"></i></a>
                         </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
